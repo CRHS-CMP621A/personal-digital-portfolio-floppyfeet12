@@ -1,0 +1,37 @@
+.header {
+  background-color: blueviolet;
+}
+
+.name {
+  text-align: center;
+}
+
+.tagline {
+  text-align: center;
+}
+
+.navbar {
+  text-align: center;
+}
+
+.body {
+  background-color: cadetblue;
+  display: grid;
+  grid-template-columns: 1fr, 1fr, 1fr;
+  padding: 4px;
+}
+
+.section_1 {
+  grid-column: 1 / 2;
+  gap: 4px;
+}
+
+.section_2 {
+  grid-column: 2 / 3;
+  gap: 4px;
+}
+
+.section_3 {
+  grid-column: 3 / 4;
+  gap: 4px;
+}
